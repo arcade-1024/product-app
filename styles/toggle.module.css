@@ -1,0 +1,15 @@
+.toggleCheckbox:checked {
+  @apply right-0 border-indigo-400;
+  right: 0;
+  border-color: #818cf8;
+}
+.toggleCheckbox:checked + .toggleLabel {
+  @apply bg-indigo-400;
+}
+.toggleCheckbox:checked + .toggleLabel > .toggleSwitch {
+  @apply right-0 border-indigo-400;
+  right: 0;
+}
+.toggleCheckbox:disabled + .toggleLabel {
+  @apply bg-gray-500;
+}

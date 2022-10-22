@@ -1,0 +1,17 @@
+
+.scrollBarThin::-webkit-scrollbar-corner {
+  background: #f0f0f0 !important;
+}
+
+.scrollBarThin::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+}
+.scrollBarThin::-webkit-scrollbar-track {
+  background: #f0f0f0 !important;
+  border-radius: 20px;
+}
+.scrollBarThin::-webkit-scrollbar-thumb {
+  background: #a6a6a6 !important;
+  border-radius: 20px;
+}
